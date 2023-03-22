@@ -1,0 +1,153 @@
+/* Header Start */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.background-img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.navbar {
+    position: relative;
+}
+
+.nav1 {
+    position: absolute;   
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    height: 96px;
+    width: 830px;
+    right: 0%;
+    top: 50%;
+    text-align: center;
+}
+
+.nav-link {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;  
+    margin-top: 40px; 
+}
+
+.a1 {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+}
+
+.home {
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-thickness: 5px;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-color: grey;
+    text-decoration-line: 30px;
+    text-decoration-thickness: 5px;
+}
+
+span {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+}
+
+svg {
+    position: absolute;
+    top: 3rem;
+    left: 2%;
+    width: 48px;
+    height: 48px;
+}
+
+.line {
+    width: 800px;
+    height: 1px;
+    position: absolute;
+    background-color: #fff;
+    left: 14%;
+    top: 72px;
+    z-index: 1;
+    opacity: 0.25;
+}
+/* Header End */
+/* Content Start */
+.description {
+    width: 450px;
+    height: 318px;
+    position: absolute;
+    color: #ffffff;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-style: bold;
+    color: #d0d6f9;
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 9.6rem;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    color: #d0d6f9;
+}
+
+
+
+.btn {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 20%;
+    right: 10%;
+    border-radius: 50%;
+    color: #000;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    border-style: none;
+    opacity: 1;
+    
+}
+
+.btn:hover {
+    scale:1.2;
+    
+    box-shadow: 0px 0px 0px 50px rgba(255,255,255,0.1);
+}
+/* Content End */
